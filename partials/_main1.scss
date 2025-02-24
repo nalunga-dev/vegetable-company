@@ -1,0 +1,25 @@
+.main1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  .chair {
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: #384a68;
+    font-weight: bolder;
+  }
+  // background-image: url("banana.png");
+  // background-repeat: no-repeat;
+  // background-size: auto;
+  // object-fit: cover;
+  // display: block;
+
+  @media (max-width: 980px) {
+    overflow-x: auto;
+  }
+}
