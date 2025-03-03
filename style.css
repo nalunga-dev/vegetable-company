@@ -342,4 +342,53 @@ nav {
   .main1 {
     overflow-x: auto;
   }
+}
+
+footer {
+  background-color: white;
+  color: #961a3c;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+}
+footer .location {
+  display: flex;
+  gap: 10rem;
+}
+@media (max-width: 981px) {
+  footer .location {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+footer .location .loaction1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+footer .location .location2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+footer .location .location3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+footer .loacationa {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+footer .privacy {
+  display: flex;
+  gap: 0.5rem;
+}
+@media (max-width: 490px) {
+  footer .privacy {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
